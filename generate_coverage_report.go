@@ -28,7 +28,7 @@ type CodecovResponse struct {
 }
 
 func main() {
-    apiToken := "d1385ff3-2242-4c1a-b564-bbee80088313"  // Replace with your actual Codecov API token
+    apiToken := "Your_codecov.io_token"  // Replace with your actual Codecov API token
     url := "https://api.codecov.io/api/v2/gh/openshift/repos/backplane-cli/report"
 
     req, err := http.NewRequest("GET", url, nil)
